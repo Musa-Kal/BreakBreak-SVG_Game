@@ -1,0 +1,153 @@
+/**
+ * main.css
+ * 
+ * 
+ * @author Musa Kaleem, 000919195 
+ */
+
+ #frame {
+   border: 2px solid grey;
+   border-radius: 10px;
+   position: relative;
+ }
+
+
+
+ #restButton {
+  border-radius: 10px;
+  color: white;
+  background-color: red;
+ }
+
+ .ToggleButtons {
+  transition: 400ms;
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
+  border: 2px solid lightgrey;
+ }
+
+ .controlButton {
+  font-size: 20pt;
+  transition: 400ms;
+  width: 48%;
+  height: 50px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  border: 3px solid lightgrey;
+ }
+
+ .controlButton:active {
+  box-shadow: 0 0 10px white;
+  opacity: 80%;
+  transition: 400ms;
+ }
+
+#statBoard {
+  background-color: lightgrey;
+  border-radius: 10px;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 2px solid grey;
+  font-size: 15pt;
+}
+
+footer {
+  border-top: 2px solid white;
+}
+
+header {
+  border-bottom: 2px solid white;
+}
+
+#gameDisplay {
+  margin: auto;
+}
+
+#gameControls {
+  user-select:none;
+  margin: auto;
+}
+
+#controlSliderGroup {
+  display: none;
+}
+
+
+#pauseToggleButton {
+  background-color: aqua;
+}
+
+
+#colorChangeButton {
+  transition: 400ms;
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
+  border: 2px solid lightgrey;
+}
+
+
+.gameNumberInput {
+  text-align: center;
+  border-radius: 10px;
+}
+
+#rVale {
+  background-color: lightcoral;
+  color: white;
+}
+
+#gVale {
+  background-color: lightgreen;
+  color: white;
+}
+
+#bVale {
+  background-color: lightblue;
+  color: white;
+}
+
+.slider {
+  -webkit-appearance: none;
+  height: 15px;
+  background: #000;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+}
+
+
+/* for chrome/safari */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #000;
+  cursor: pointer;
+  border: 5px solid lightgrey;
+  border-radius: 8px;
+}
+
+/* for firefox */
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #000;
+  cursor: pointer;
+  border: 5px solid lightgrey;
+  border-radius: 8px;
+}
+
+#insctructionAccordion ol li {
+  border-bottom: 2px solid lightgrey;
+  padding-bottom: 2px;
+}
+
+#gameSettings h5 {
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  padding: 5px 0;
+}
